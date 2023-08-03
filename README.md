@@ -27,5 +27,5 @@ Machine Learning Task - LSTM Forecasting: After training the LSTM model, the nex
 
 Machine Learning Task - ARIMA Model: For the Reliance Industries stock, an ARIMA model was implemented. The appropriate values of (p,d,q) were determined using autocorrelation and partial autocorrelation function plots. The ARIMA model was then fitted, and the predicted values were compared with the observed values. Additionally, forecasting was performed for the next 30 days after splitting the dataset into training and testing sets.
 
-> Conclusion :
+> Conclusion 
 This project demonstrates the application of deep learning models, specifically LSTM, and traditional time series forecasting models like ARIMA, to predict stock market prices. The repository contains the Python files with the implemented models, the dataset in CSV format, and this README file describing the project and its tasks.
