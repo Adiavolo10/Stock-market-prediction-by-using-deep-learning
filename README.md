@@ -1,22 +1,24 @@
 # Stock-market-prediction-by-using-deep-learning
 Stock Market Prediction using Deep Learning Models : 
-> Aim and Dataset Background
+
+Aim and Dataset Background
 The aim of this project is to predict stock market prices for two companies, Reliance Industries and Adani Enterprises, using deep learning models such as Stacked Long Short-Term Memory (LSTM) and ARIMA (AutoRegressive Integrated Moving Average) models. The historical data spans the last 5 years and includes various parameters like Date, Open, High, Low, Close, Weighted Average Price (WAP), Number of Shares, Number of Trades, Total Turnover, Deliverable Quantity, % Deliverable Quantity to Traded Quantity, Spread High-Low, and Spread Close-Open. The historical dataset was sourced from Quandl.
 
-> Libraries and Modules
+Libraries and Modules
 The project code utilized the following libraries and modules:
 
-pandas: For data manipulation and analysis.
-matplotlib: For data visualization and creating plots.
-statsmodels: For implementing the ARIMA model.
-sklearn.metrics: For computing the Mean Squared Error (MSE) in the LSTM model.
-seaborn: For creating advanced visualizations.
-numpy: For numerical computing and array operations.
-tensorflow: For building and training the LSTM model.
-pmdarima: The pmdarima module, short for "Pyramid AutoARIMA," is a Python library that provides an easy-to-use interface for implementing AutoARIMA models. 
+pandas - For data manipulation and analysis.
+matplotlib - For data visualization and creating plots.
+statsmodels - For implementing the ARIMA model.
+sklearn.metrics - For computing the Mean Squared Error (MSE) in the LSTM model.
+seaborn - For creating advanced visualizations.
+numpy - For numerical computing and array operations.
+tensorflow - For building and training the LSTM model.
+pmdarima - The pmdarima module, short for "Pyramid AutoARIMA," is a Python library that provides an easy-to-use interface for implementing AutoARIMA models. 
 
->Tasks Completed
-Data Analysis Task: A correlation heatmap plot was derived between Stock closing prices and the number of trades/total shares bought or sold. This analysis helped to understand the relationships between stock prices and trading activity.
+Tasks Completed
+
+Data Analysis Task - A correlation heatmap plot was derived between Stock closing prices and the number of trades/total shares bought or sold. This analysis helped to understand the relationships between stock prices and trading activity.
 
 Machine Learning Task - LSTM Model: The dataset was split into training and testing sets, and a 3/2 layer LSTM model (depending on the dataset) was implemented to predict stock prices. The Root Mean Squared Error (RMSE) was calculated to assess the accuracy of the model's predictions.
 
