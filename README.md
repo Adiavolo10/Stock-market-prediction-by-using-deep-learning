@@ -9,12 +9,19 @@ The aim of this project is - to predict stock market prices for two companies, R
 The project code utilized the following libraries and modules:
 
 pandas - For data manipulation and analysis.
+
 matplotlib - For data visualization and creating plots.
+
 statsmodels - For implementing the ARIMA model.
+
 sklearn.metrics - For computing the Mean Squared Error (MSE) in the LSTM model.
+
 seaborn - For creating advanced visualizations.
+
 numpy - For numerical computing and array operations.
+
 tensorflow - For building and training the LSTM model.
+
 pmdarima - The pmdarima module, short for "Pyramid AutoARIMA," is a Python library that provides an easy-to-use interface for implementing AutoARIMA models. 
 
 >Tasks Completed
